@@ -1,0 +1,15 @@
+.header {
+    border: 5px solid red;
+    font-family: roboto, Arial, sans-serif;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
