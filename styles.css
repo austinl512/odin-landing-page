@@ -80,6 +80,7 @@ button {
 
 .second-subsection {
     border: 5px solid orange;
+    padding-bottom: 150px;
 }
 
 .information-header {
@@ -108,7 +109,7 @@ button {
     border: 3px solid purple;
     display: flex;
     justify-content: center;
-    gap: 70px
+    gap: 70px;
 }
 
 .item {
