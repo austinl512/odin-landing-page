@@ -99,9 +99,18 @@ button {
     border-radius: 20px;
 }
 
-.image-container {
+.subtext {
+    font-size: 18px;
+    text-align: center;
+}
+
+.item-container {
     border: 3px solid purple;
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 70px
+}
+
+.item {
+    max-width: 200px;
 }
