@@ -151,9 +151,49 @@ button {
     padding-top: 100px;
     padding-bottom: 100px;
     border: 5px solid brown;
+    display: flex;
+    justify-content: center;
 }
 .call-to-action-container {
-    width: 1500px;
-    height: 150px;
-    border: 3px solid;
+    width: 1400px;
+    height: 200px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-bold {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.call-to-action-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-to-action-text {
+    border: 3px solid blue;
+    height: fit-content;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.footer {
+    border: 5px solid yellow;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    
 }
