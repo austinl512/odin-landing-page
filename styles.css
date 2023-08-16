@@ -1,15 +1,17 @@
+/* The following selector sets the font of all text on the landing page. */
 * {
     font-family: roboto, Arial, sans-serif;
 }
 
+/* The following class selector sets the background color of the landing page header and properly align/spaces the header logo and links. */
 .header {
-    border: 5px solid red;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* The following class selector sets the font styling and placement of the header logo. */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -17,6 +19,7 @@
     margin: 10px 300px;
 }
 
+/* The following class selector sets the font styling and placement of the header links. */
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
@@ -30,6 +33,7 @@
     margin: 10px 300px;
 }
 
+/* The following id selector sets the size and placement of the image placeholder*/
 #placeholder-image {
     width: 700px;
     height: 300px;
@@ -39,20 +43,22 @@
     background-color: rgba(255, 255, 255, 0.61);
 }
 
+/* The following class selector sets the background color of the first subsection and sets the placement of all the elements within the subsection. */
 .first-subsection {
     display: flex;
     background-color: #1F2937;
-    border: 5px solid blue;
     justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+/* The following class selector makes it so that the text in the first subsection wraps to the next line. */
 .first-header, .secondary-text {
     flex-wrap: wrap;
     width: 700px;
 }
 
+/* The following class selector sets the font styling and spacing of the Hero Main text (first subsection header). */
 .first-header {
     font-size: 48px;
     font-weight: 900;
@@ -61,6 +67,7 @@
     margin-bottom: 15px;
 }
 
+/* The following class selector sets the font styling and spacing of the Hero Secondary text. */
 .secondary-text {
     font-size: 18px;
     margin-top: 0px;
@@ -68,6 +75,7 @@
     color: #E5E7EB;
 }
 
+/* The following type selector sets the styling and spacing of the "sign-up" button in the first subsection. */
 button {
     margin-top: 0px;
     font-size: 18px;
@@ -78,15 +86,17 @@ button {
     padding: 10px 35px;
 }
 
+/* The following class selector sets the position of the Hero Main text and Hero Secondary text towards the left of the landing page. */
 .introduction-section {
     margin-left: 300px;
 }
 
+/* The following class selector sets the padding for the second-subsection. */
 .second-subsection {
-    border: 5px solid orange;
     padding-bottom: 150px;
 }
 
+/* The following class selector sets the font styling, spacing, and positioning of the header in the second subsection. */
 .information-header {
     display: flex;
     justify-content: center;
@@ -97,6 +107,7 @@ button {
     font-weight: 900;
 }
 
+/* The following class selector sets the size and styling of the image/illustraton placeholders in the second subsection. */
 .image {
     border: 4px solid #3882F6;
     width: 200px;
@@ -104,25 +115,27 @@ button {
     border-radius: 20px;
 }
 
+/* The following class selector sets the font size and alignment of the subtext under each image/illustration placeholder in the second subsection. */
 .subtext {
     font-size: 18px;
     text-align: center;
 }
 
+/* The following class selector aligns and centers all the image/illustration placeholders and their subtext in the second subsection. */
 .item-container {
-    border: 3px solid purple;
     display: flex;
     justify-content: center;
     gap: 70px;
 }
 
+/* The following class selector sets the maximum width for each of the image/illustration placeholders and their subtext in the second subsection. */
 .item {
     max-width: 200px;
 }
 
+/* The following class selector sets the background color of the third subsection and centers the elements within it. */
 .third-subsection {
     background-color: #E5E7EB;
-    border: 5px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,62 +144,66 @@ button {
     padding-bottom: 100px;
 }
 
+/* The following class selector sets the font styling and width of the quote text. */
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
     width: 1010px;
-    border: 3px solid green;
 }
 
+/* The following class selector sets the font styling and quote signature width. */
 .quote-signature {
     font-size: 24px;
     font-weight: 900;
     width: fit-content;
-    border: 3px solid pink;
 }
 
+/* The following class selector aligns the quote signature towards the left under the quote text above it. */
 .signature-container {
     width: 1010px;
     display: flex;
     justify-content: flex-end;
 }
 
+/* The following class selector sets the padding and placement of the elements in the fourth subsection. */
 .fourth-subsection {
     padding-top: 100px;
     padding-bottom: 100px;
-    border: 5px solid brown;
     display: flex;
     justify-content: center;
 }
 
+/* The following class selector sets the size, background color, and placement of the container for the call to action elements in the fourth subsection. */
 .call-to-action-container {
     width: 1400px;
     height: 200px;
     background-color: #3882F6;
     border-radius: 20px;
-    border: 3px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* The following class selector sets the font style and color of the main call to action in the fourth subsection. */
 .call-to-action-bold {
     font-size: 24px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
+/* The following class selector sets the font style and color of the call to action subtext in the fourth subsection. */
 .call-to-action-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+/* The following class selector is used as a container for the call to action text and aligns the text towards the left side of the fourth subsection. */
 .call-to-action-text {
-    border: 3px solid blue;
     height: fit-content;
 }
 
+/* The following class selector sets the styling of the call to action "sign up" button. */
 .call-to-action-button {
     background-color: #3882F6;
     color: #F9FAF8;
@@ -195,8 +212,8 @@ button {
     border-radius: 10px;
 }
 
+/* The following class selector sets the background color of the footer and sets the spacing/placement of the copyright text. */
 .footer {
-    border: 5px solid yellow;
     background-color: #1F2937;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -205,6 +222,7 @@ button {
     align-items: center;
 }
 
+/* The following class selector sets the font style of the copyright text in the footer. */
 .footer-text {
     font-size: 18px;
     color: #E5E7EB;
