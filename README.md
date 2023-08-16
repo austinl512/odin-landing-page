@@ -1,1 +1,4 @@
 # odin-landing-page
+
+For this Flexbox project, I needed to create a landing page the consisted of a header, footer, and three subsections. The header section needed to have a logo header placeholder as well as 
+three header link placeholders. Additionally, the three landing page subsections required various types of elements, styling, and spacing. The landing page footer needed to have copyright text. The end result of the project needed to match the expected outcome image provided for the most part. Through this project, I was mainly able to demostrate my knowledge in working with flexbox. However, I also demonstrated my understanding of some of the HTML and CSS foundational concepts leared in the previous sections. Overall, this project helped me get more accustomed to flexbox and its properties.
