@@ -115,3 +115,32 @@ button {
 .item {
     max-width: 200px;
 }
+
+.third-subsection {
+    background-color: #E5E7EB;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 1010px;
+    border: 3px solid green;
+}
+.quote-signature {
+    font-size: 24px;
+    font-weight: 900;
+    width: fit-content;
+    border: 3px solid pink;
+}
+
+.signature-container {
+    width: 1010px;
+    display: flex;
+    justify-content: flex-end;
+}
