@@ -192,8 +192,14 @@ button {
 .footer {
     border: 5px solid yellow;
     background-color: #1F2937;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-text {
-    
+    font-size: 18px;
+    color: #E5E7EB;
 }
