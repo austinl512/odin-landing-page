@@ -7,16 +7,14 @@
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 /* The following class selector sets the font styling and placement of the header logo. */
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
-    margin: 10px 300px;
+.logo-img {
+    height: auto;
+    width: 100px;
 }
 
 /* The following class selector sets the font styling and placement of the header links. */
