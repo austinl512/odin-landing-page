@@ -5,10 +5,16 @@
 
 /* The following class selector sets the background color of the landing page header and properly align/spaces the header logo and links. */
 .header {
-    background-color: #1F2937;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 /* The following class selector sets the font styling and placement of the header logo. */
