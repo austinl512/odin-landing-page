@@ -138,6 +138,12 @@
     text-align: center;
 }
 
+.team-name {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
 /* The following class selector aligns and centers all the image/illustration placeholders and their subtext in the second subsection. */
 .item-container {
     display: flex;
@@ -227,6 +233,8 @@
     border: 2px solid #F9FAF8;
     font-size: 18px;
     border-radius: 10px;
+    font-weight: 900;
+    padding: 10px 35px;
 }
 
 /* The following class selector sets the background color of the footer and sets the spacing/placement of the copyright text. */
