@@ -44,9 +44,9 @@
 }
 
 /* The following id selector sets the size and placement of the image placeholder*/
-#placeholder-image {
+#first-subsection-image {
     width: 700px;
-    height: 300px;
+    height: auto;
     margin-right: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -74,19 +74,19 @@
     font-weight: 900;
     color: #F9FAF8;
     padding: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 /* The following class selector sets the font styling and spacing of the Hero Secondary text. */
 .secondary-text {
     font-size: 18px;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     color: #E5E7EB;
 }
 
 /* The following type selector sets the styling and spacing of the "sign-up" button in the first subsection. */
-button {
+.sign-up-button {
     margin-top: 0px;
     font-size: 18px;
     font-weight: 900;
@@ -94,6 +94,12 @@ button {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 10px 35px;
+}
+
+.sign-up-button:hover {
+    background-color: #F9FAF8;
+    cursor: pointer;
+    color: #3882F6;
 }
 
 /* The following class selector sets the position of the Hero Main text and Hero Secondary text towards the left of the landing page. */
