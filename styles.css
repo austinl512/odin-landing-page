@@ -129,6 +129,7 @@
     width: 200px;
     height: 200px;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 /* The following class selector sets the font size and alignment of the subtext under each image/illustration placeholder in the second subsection. */
