@@ -7,7 +7,7 @@
 .header {
     background-color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -15,6 +15,13 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    border: 5px solid red;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 /* The following class selector sets the font styling and placement of the header logo. */
@@ -26,15 +33,15 @@
 /* The following class selector sets the font styling and placement of the header links. */
 .header-links {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #1F2937;
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    margin: 10px 300px;
+    gap: 70px;
+    margin: 10px 50px
 }
 
 /* The following id selector sets the size and placement of the image placeholder*/
