@@ -11,12 +11,14 @@
     align-items: center;
 }
 
+/* The following class selector sets the position of the logo on the landing page. */
 .logo {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
+/* The following class selector sets the logo text styling.*/
 .logo-text {
     font-size: 24px;
     color: #1F2937;
@@ -96,6 +98,7 @@
     padding: 10px 35px;
 }
 
+/* The following class selector adds a hover effect when a visitors mouse hovers on the sing up button. */
 .sign-up-button:hover {
     background-color: #F9FAF8;
     cursor: pointer;
@@ -138,6 +141,7 @@
     text-align: center;
 }
 
+/* The following class selector sets the font styling and spacing of the team member names. */
 .team-name {
     font-size: 25px;
     font-weight: 900;
@@ -235,6 +239,13 @@
     border-radius: 10px;
     font-weight: 900;
     padding: 10px 35px;
+}
+
+/* The following class selector adds a hover effect when a visitor hovers their mouse on the call to action (sign up) button. */
+.call-to-action-button:hover {
+    background-color: #F9FAF8;
+    cursor: pointer;
+    color: #3882F6;
 }
 
 /* The following class selector sets the background color of the footer and sets the spacing/placement of the copyright text. */
